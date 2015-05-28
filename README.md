@@ -14,15 +14,6 @@ docker build -t horie/centos7:1.0 ./centos7
 docker build -t horie/laravel5:1.0 ./php54-laravel5
 ```
 
-
-
-```
-rpm -Uvh http://rpms.famillecollet.com/enterprise/remi-release-7.rpm
-
-yum install --enablerepo=remi php54-php.x86_64 php54-php-devel.x86_64 php54-php-mbstring.x86_64 php54-php-mcrypt.x86_64 php54-php-mysqlnd.x86_64
-```
-
-
 ## ハマったところ
 
 dockerのバージョン1.3を使っていたらphpのインストールが失敗した。
