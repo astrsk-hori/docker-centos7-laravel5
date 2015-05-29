@@ -9,3 +9,6 @@ RUN yum reinstall -y glibc-common
 ENV LANG ja_JP.UTF-8
 ENV LANGUAGE ja_JP:ja
 ENV LC_ALL ja_JP.UTF-8
+
+# set local time
+RUN ln -sf /usr/share/zoneinfo/Japan /etc/localtime
