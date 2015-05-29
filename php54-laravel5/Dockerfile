@@ -1,4 +1,4 @@
-FROM horie/centos7:1.0
+FROM centos7
 
 RUN yum install -y epel-release
 RUN rpm -Uvh http://rpms.famillecollet.com/enterprise/remi-release-7.rpm
